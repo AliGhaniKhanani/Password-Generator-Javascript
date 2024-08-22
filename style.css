@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to right bottom, #000118 #36041d);
+    color: #050a0bea;
+
+}
+
+.container{
+    border: 0.5px solid #257773;
+    border-radius: 10px;
+    padding: 28px 32px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(223, 219, 193, 0.391)
+}
+
+.container h1{
+    font-size: 1.4rem;
+    margin-block: 8px;
+}
+
+.passBox{
+    background-color: #ffffff;
+    border: none;
+    outline:none;
+    padding: 10px;
+    width: 300px;
+    border-radius: 4px;
+    font-size: 20px;
+    margin-block: 8px;
+}
+
+.row{
+    display: flex;
+    margin-block: 8px;
+    font-size: small;
+}
+
+.row p, .row label{
+    flex-basis: 100%;
+    font-size: small;
+}
+
+.row input[type="checkbox"]{
+    width: 20px;
+}
+
+.genBtn{
+    outline: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: 550;
+    cursor: pointer;
+    border-radius: 4px;
+
+}
+
+.genBtn:hover{
+    background-color:burlywood
+}
